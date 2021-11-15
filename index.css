@@ -1,0 +1,100 @@
+.container {
+  display: grid;
+  grid-template-columns: 25vw 25vw 25vw 25vw;
+  grid-template-rows: 20vh 60vh 20vh;
+  grid-template-areas:
+    "header header header header"
+    "main main main main"
+    "footer footer footer footer";
+  height: 100vh;
+}
+body {
+  margin: 0;
+  background-color: #000000;
+}
+header {
+  grid-area: header;
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.title {
+  color: #ffffff;
+  margin-left: 15px;
+  font-size: 20px;
+  font-family: "Trebuchet MS", sans-serif;
+}
+.titlebutton {
+  background: transparent;
+  color: #ffffff;
+  height: 35px;
+  width: 100px;
+  font-family: "Trebuchet MS", sans-serif;
+  font-style: italic;
+}
+footer {
+  grid-area: footer;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer1 {
+  color: #ffffff;
+  margin-left: 15px;
+  font-size: 20px;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+main {
+  grid-area: main;
+  background-color: #ffffff;
+  display: inline-flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentpiece {
+  font-family: "Libre Franklin", sans-serif;
+  font-style: italic;
+  text-align: center;
+  margin: 30px;
+}
+.contentpieces {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.contenttitle {
+  font-size: 30px;
+}
+.contentsubtitle {
+  font-size: 15px;
+  margin: 5px;
+}
+.contentbutton {
+  background: #ffffff;
+  border: 2px solid #000000;
+  color: black;
+  height: 35px;
+  width: 120px;
+  border-radius: 0;
+  margin-right: 0;
+  font-family: "Libre Franklin", sans-serif;
+  font-style: italic;
+}
+.contentbutton:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+i {
+  font-size: 95px;
+}
