@@ -29,8 +29,7 @@ a {
 
 header > .mainsubtwo {
   color: gold;
- text-decoration: none;
-
+  text-decoration: none;
 }
 .title {
   color: #ffffff;
@@ -107,5 +106,3 @@ main {
 i {
   font-size: 95px;
 }
-
-
