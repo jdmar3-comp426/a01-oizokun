@@ -1,0 +1,6 @@
+{
+    "html.format.templating": true,
+    "auto-close-tag.fullMode": true,
+    "auto-close-tag.insertSpaceBeforeSelfClosingTag": true,
+    "auto-close-tag.SublimeText3Mode": true
+}
