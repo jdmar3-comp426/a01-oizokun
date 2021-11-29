@@ -19,6 +19,9 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+h1 {
+  font-family: "Trebuchet MS", sans-serif;
+}
 a {
   color: #ffffff;
   text-decoration: none;
