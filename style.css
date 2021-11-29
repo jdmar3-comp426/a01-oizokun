@@ -27,9 +27,8 @@ a {
   text-decoration: none;
 }
 
-header > .mainsubtwo {
+a .mainsubtwo {
   color: gold;
-  text-decoration: none;
 }
 .title {
   color: #ffffff;
