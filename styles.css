@@ -26,6 +26,10 @@ a {
   color: #ffffff;
   text-decoration: none;
 }
+
+a .mainsubtwo {
+  color: gold;
+}
 .title {
   color: #ffffff;
   margin-left: 15px;
